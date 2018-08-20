@@ -7,11 +7,11 @@ if (inspType == 'Initial Investigation' && inspResult == 'Compliant') {
 	closeTask('Case Closed', 'Closed', '', '');
 	if (parentArray && parentArray.length > 0)
 		for (thisParent in parentArray)
-			if (parentArray[thisParent])
-				AInfo['capId = parentArray[thisParent];
-											closeTask(' Investigation ',' No Violation ',' ',' ');
-					capId = holdCapId;
-					'];
+			if (parentArray[thisParent]) {
+				capId = parentArray[thisParent];
+				closeTask('Investigation', 'No Violation', '', '');
+				capId = holdCapId;
+			}
 }
 // TODO: syntax errors
 

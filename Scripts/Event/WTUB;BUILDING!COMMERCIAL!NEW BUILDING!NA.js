@@ -108,3 +108,4 @@ if (wfTask == 'Issue Certificate' && matches(wfStatus, 'Issue C of O', 'Issue C 
 		comment('The Backflow Preventer condition has not been met.');
 		cancel = true;
 	}
+}

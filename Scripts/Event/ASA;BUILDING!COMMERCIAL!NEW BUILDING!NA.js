@@ -4,8 +4,8 @@
 // 	addStdCondition('Building Permit','AE Flood Zone');
 // 	}
 
-if (isEmpty(getParcelConditions(null,null,'Letter of Map Amendment or Revision',null)) && (AInfo['Flood Zone']=='Zone AE' || AInfo['Flood Zone']=='Zone A'|| AInfo['Flood Zone']=='Zone AE+ì-+ 500 YR' || AInfo['FloodZone']=='500 YR+ì-+ Zone AE')) {
-	addStdCondition('Building Permit','AE Flood Zone')+ì-+;
+if (isEmpty(getParcelConditions(null,null,'Letter of Map Amendment or Revision',null)) && (AInfo['Flood Zone']=='Zone AE' || AInfo['Flood Zone']=='Zone A'|| AInfo['Flood Zone']=='Zone AE; 500 YR' || AInfo['FloodZone']=='500 YR; Zone AE')) {
+	addStdCondition('Building Permit','AE Flood Zone');
 	}
 
 if (!isEmpty(getParcelConditions(null,null,'Letter of Map Amendment or Revision',null))) {

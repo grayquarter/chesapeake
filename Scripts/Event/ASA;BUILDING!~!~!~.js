@@ -108,8 +108,7 @@
 	}
 
 	if (varASIFieldExists && myArrFlood.length > 1 && !((varFlood).indexOf(varFloodTemp) > -1)) {
-		varFlood = varFlood + ';
-			' + varFloodTemp;
+		varFlood = varFlood + ' ' + varFloodTemp;
 	}
 
 	if (varASIFieldExists && myArrFlood.length > 2) {

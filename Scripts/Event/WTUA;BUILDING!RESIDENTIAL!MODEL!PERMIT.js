@@ -82,23 +82,19 @@ if (wfTask == 'Record Creation' && wfStatus == 'Ready for Review' && AInfo['Land
 			}
 
 			if (varASIFieldExists && myArrHUC.length > 1 && !((varHUC).indexOf(myArrHUC[1]) > -1)) {
-				varHUC = varHUC + ';
-					' + myArrHUC[1];
+				varHUC = varHUC + ' ' + myArrHUC[1];
 			}
 
 			if (varASIFieldExists && myArrHUC.length > 2 && !((varHUC).indexOf(myArrHUC[2]) > -1)) {
-				varHUC = varHUC + ';
-					' + myArrHUC[2];
+				varHUC = varHUC + '	' + myArrHUC[2];
 			}
 
 			if (varASIFieldExists && myArrHUC.length > 3 && !((varHUC).indexOf(myArrHUC[3]) > -1)) {
-				varHUC = varHUC + ';
-					' + myArrHUC[3];
+				varHUC = varHUC + '	' + myArrHUC[3];
 			}
 
 			if (varASIFieldExists && myArrHUC.length > 4 && !((varHUC).indexOf(myArrHUC[4]) > -1)) {
-				varHUC = varHUC + ';
-					' + myArrHUC[4];
+				varHUC = varHUC + '	' + myArrHUC[4];
 			}
 
 			if (varASIFieldExists && varHUC) {

@@ -4,7 +4,8 @@ if (wfTask == 'SR Intake' && wfStatus == 'Accepted') {
 }
 
 if (wfTask == 'SR Intake' && wfStatus == 'Duplicate') {
-	closeTask('Final Notification', 'Notification Sent'),
+	// TODO: there was a syntax error here (comma after the following line, updated)
+	closeTask('Final Notification', 'Notification Sent') //,
 	//start replaced branch: EMSE:ServiceRequestCloseCase
 	{
 		if (capStatus == 'Complete-Fixed') {

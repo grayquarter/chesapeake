@@ -1,6 +1,6 @@
 
 if (wfTask == ('CC Planning Meeting') && (wfStatus == 'Approved' || wfStatus == 'Approved with Stipulations')) {
-	addParcelCondition(null, 'Planning COA', 'Applied', 'Use Permit Stipulations', 'There is a Conditional Use Permit associated with this parcel.  Please verify if stipulations exist that would affect this permit.  If so, create a ' Use Permit Stipulation ' child record', 'Notice');
+	addParcelCondition(null, 'Planning COA', 'Applied', 'Use Permit Stipulations', "There is a Conditional Use Permit associated with this parcel.  Please verify if stipulations exist that would affect this permit.  If so, create a 'Use Permit Stipulation' child record", 'Notice');
 	//addParcelConditionAndRelatedCap();
 }
 

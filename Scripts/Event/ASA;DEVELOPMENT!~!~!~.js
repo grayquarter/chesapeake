@@ -1,13 +1,3 @@
-
-if (currentUserID == 'ADMIN') {
-	showMessage=false;
-	showDebug=true;
-	} else {
-	showMessage=false;
-	showDebug=false;
-	}
-
-
 //start replaced branch: GIS_ATTRIBUTES_DEVELOPMENT
  {
 if (doesASIFieldExistOnRecord('Borough')) {
@@ -47,23 +37,19 @@ if (varASIFieldExists && myArrHUC.length > 0) {
 	}
 
 if (varASIFieldExists && myArrHUC.length > 1 && !((varHUC).indexOf(myArrHUC[1]) > -1)) {
-	varHUC = varHUC + ';
-	' + myArrHUC[1];
+	varHUC = varHUC + ' ' + myArrHUC[1];
 	}
 
 if (varASIFieldExists && myArrHUC.length > 2 && !((varHUC).indexOf(myArrHUC[2]) > -1)) {
-	varHUC = varHUC + ';
-	' + myArrHUC[2];
+	varHUC = varHUC + ' ' + myArrHUC[2];
 	}
 
 if (varASIFieldExists && myArrHUC.length > 3 && !((varHUC).indexOf(myArrHUC[3]) > -1)) {
-	varHUC = varHUC + ';
-	' + myArrHUC[3];
+	varHUC = varHUC + '	' + myArrHUC[3];
 	}
 
 if (varASIFieldExists && myArrHUC.length > 4 && !((varHUC).indexOf(myArrHUC[4]) > -1)) {
-	varHUC = varHUC + ';
-	' + myArrHUC[4];
+	varHUC = varHUC + ' ' + myArrHUC[4];
 	}
 
 if (varASIFieldExists && varHUC) {
@@ -128,23 +114,19 @@ if (developmentTracking && myDevTrackingApps.length > 0) {
 	}
 
 if (developmentTracking && myDevTrackingApps.length > 1 && !((varDevTrackingApp).indexOf(myDevTrackingApps[1]) > -1)) {
-	varDevTrackingApp = varDevTrackingApp + ';
-	' + myDevTrackingApps[1];
+	varDevTrackingApp = varDevTrackingApp + ' ' + myDevTrackingApps[1];
 	}
 
 if (developmentTracking && myDevTrackingApps.length > 2 && !((varDevTrackingApp).indexOf(myDevTrackingApps[2]) > -1)) {
-	varDevTrackingApp = varDevTrackingApp + ';
-	' + myDevTrackingApps[2];
+	varDevTrackingApp = varDevTrackingApp + ' ' + myDevTrackingApps[2];
 	}
 
 if (developmentTracking && myDevTrackingApps.length > 3 && !((varDevTrackingApp).indexOf(myDevTrackingApps[3]) > -1)) {
-	varDevTrackingApp = varDevTrackingApp + ';
-	' + myDevTrackingApps[3];
+	varDevTrackingApp = varDevTrackingApp + ' ' + myDevTrackingApps[3];
 	}
 
 if (developmentTracking && myDevTrackingApps.length > 4 && !((varDevTrackingApp).indexOf(myDevTrackingApps[4]) > -1)) {
-	varDevTrackingApp = varDevTrackingApp + ';
-	' + myDevTrackingApps[4];
+	varDevTrackingApp = varDevTrackingApp + ' ' + myDevTrackingApps[4];
 	}
 
 if (developmentTracking) {
