@@ -132,7 +132,7 @@ function licProfLookup() {
 					licObj.refLicModel.setLicenseBoard(LICENSETYPE);
 				}
 
-				if (licObj.updateFromRecordContactByType(licCapId, '', true, false); ) {
+				if (licObj.updateFromRecordContactByType(licCapId, '', true, false)) {
 					logDebug('LP Updated from Primary Contact');
 				} else {
 					logDebug('LP Failed to Update from Primary Contact trying License Holder');
