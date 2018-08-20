@@ -1,0 +1,5 @@
+
+if (!publicUser) {
+	runDPORCheck(capId);
+}
+

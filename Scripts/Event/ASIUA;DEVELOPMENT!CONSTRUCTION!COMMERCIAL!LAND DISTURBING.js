@@ -1,0 +1,7 @@
+
+// DISABLED: ASIUA:Development/Construction/Commercial/Land Disturbing:1
+// if (AInfo['Total Disturbed Acreage'] > 0) {
+// 	editAppSpecific('Permit Fee', devLndDistFee());
+//	} else {
+// 	editAppSpecific('Permit Fee', 0);
+// 	}
