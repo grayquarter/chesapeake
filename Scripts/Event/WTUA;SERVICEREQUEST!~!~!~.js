@@ -29,7 +29,8 @@ if (wfTask == 'SR Intake' && wfStatus == 'Duplicate') {
 }
 
 if (wfTask == 'SR Intake' && wfStatus == 'Referred') {
-	closeTask('Final Notification', 'Notification Sent'),
+	// TODO: syntax error, comma end of next line
+	closeTask('Final Notification', 'Notification Sent') //,
 	//start replaced branch: EMSE:ServiceRequestCloseCase
 	{
 		if (capStatus == 'Complete-Fixed') {

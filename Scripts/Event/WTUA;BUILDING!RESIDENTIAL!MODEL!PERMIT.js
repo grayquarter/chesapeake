@@ -159,23 +159,19 @@ if (wfTask == 'Record Creation' && wfStatus == 'Ready for Review' && AInfo['Land
 		}
 
 		if (developmentTracking && myDevTrackingApps.length > 1 && !((varDevTrackingApp).indexOf(myDevTrackingApps[1]) > -1)) {
-			varDevTrackingApp = varDevTrackingApp + ';
-				' + myDevTrackingApps[1];
+			varDevTrackingApp = varDevTrackingApp + ' ' + myDevTrackingApps[1];
 		}
 
 		if (developmentTracking && myDevTrackingApps.length > 2 && !((varDevTrackingApp).indexOf(myDevTrackingApps[2]) > -1)) {
-			varDevTrackingApp = varDevTrackingApp + ';
-				' + myDevTrackingApps[2];
+			varDevTrackingApp = varDevTrackingApp + ' ' + myDevTrackingApps[2];
 		}
 
 		if (developmentTracking && myDevTrackingApps.length > 3 && !((varDevTrackingApp).indexOf(myDevTrackingApps[3]) > -1)) {
-			varDevTrackingApp = varDevTrackingApp + ';
-				' + myDevTrackingApps[3];
+			varDevTrackingApp = varDevTrackingApp + ' ' + myDevTrackingApps[3];
 		}
 
 		if (developmentTracking && myDevTrackingApps.length > 4 && !((varDevTrackingApp).indexOf(myDevTrackingApps[4]) > -1)) {
-			varDevTrackingApp = varDevTrackingApp + ';
-				' + myDevTrackingApps[4];
+			varDevTrackingApp = varDevTrackingApp + ' ' + myDevTrackingApps[4];
 		}
 
 		if (developmentTracking) {
